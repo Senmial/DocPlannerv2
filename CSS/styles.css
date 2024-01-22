@@ -1,0 +1,28 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-between;
+padding: 10px 340px;
+}
+
+header img{
+    width: 250px;
+    height: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    ;
+}
+nav a{
+    text-decoration: none;
+    ;
+    
+}
