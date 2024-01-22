@@ -17,12 +17,42 @@ header img{
 }
 
 nav{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: space-evenly;
     display: flex;
-    justify-content: space-between;
-    ;
+
 }
 nav a{
     text-decoration: none;
-    ;
-    
+    color: gray;
+}
+
+#Aboutus,
+#Career:hover,
+#Departments:hover{
+    color: #25c9ae;   
+}
+
+.sect1{
+    display:grid;
+}
+
+.sect1 img{
+    width: 35px;
+    height: 35px;
+    margin-top: 40px;
+}
+
+.sect1Heading{
+    color: #25c9ae;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.sect1Text{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: grey;
+    font-size: 12px;
 }
