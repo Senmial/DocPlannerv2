@@ -68,126 +68,101 @@ nav a{
 /* end of section 1*/
 
 
-
-
 .second_section{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 25px;
 }
 
-#for_patients{
-    background-color: #00ccb1
-    ;
-    border: 10px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-    height: 280px;
-    color: aliceblue;
-    font-family: "Work Sans", Arial, sans-serif;
-    padding: 20px;
-
-}
-
-#for_patients img{
-width: 27px;
-height: 35px;
-margin-bottom: -50px;
-}
-#for_patients h6{
-font-size: 25px;
-font-weight: 400;
-margin-bottom: 10px;
-}
-
-#for_patients p{
-font-size: 20px;
-font-weight: 300;
-margin-bottom: 100px;
-}
-#for_patients select{
-background-color: #00ccb1;
-color: white;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 17px;
-}
-
-.for_doctors{
-    background-color: #3d83df;
-    border: 10px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-    height: 280px;
-    color: aliceblue;
-    font-family: "Work Sans", Arial, sans-serif;
-    padding: 20px;
-
-}
-
-.for_doctors img{
-width: 27px;
-height: 35px;
-margin-bottom: -50px;
-}
-.for_doctors h6{
-font-size: 25px;
-font-weight: 400;
-margin-bottom: 10px;
-}
-
-.for_doctors p{
-font-size: 20px;
-font-weight: 300;
-margin-bottom: 100px;
-}
-.for_doctors select{
-background-color: #3d83df;
-color: white;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 17px;
-}
+#for_patients,
+.for_doctors,
 .for_clinics{
-    background-color: #1b2734;
     border: 10px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    width: 250px;
-    height: 280px;
+    width: 200px;
+    height: 230px;
     color: aliceblue;
     font-family: "Work Sans", Arial, sans-serif;
     padding: 20px;
-
 }
 
+#for_patients img,
+.for_doctors img,
 .for_clinics img{
-width: 27px;
-height: 35px;
+width: 20px;
+height: 30px;
 margin-bottom: -50px;
 }
-.for_clinics h6{
-font-size: 25px;
-font-weight: 400;
-margin-bottom: 10px;
+
+#for_patients h6,
+.for_doctors h6,
+.for_clinics h6 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    }
+
+#for_patients p,
+.for_doctors p,
+.for_clinics p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 70px;
 }
 
-.for_clinics p{
-font-size: 20px;
-font-weight: 300;
-margin-bottom: 70px;
+#for_patients select,
+.for_clinics select,
+.for_doctors select {
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border: none;
+    text-decoration: underline
 }
+
+#for_patients,
+#for_patients select {
+    background-color: #00ccb1;
+}
+
+.for_doctors,
+.for_doctors select{
+    background-color: #3d83df;
+}
+
+.for_clinics,
 .for_clinics select{
-background-color: #1b2734;
-color: white;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 17px;
+    background-color: #1b2734;
 }
 
 /* end of section 2*/
 
+.third_section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    
+    
+}
+
+.logos img{
+    width: 50px;
+    object-fit: contain;
+}
+
+.logos.containerText{
+    display: flex;
+    padding-right: 50px;
+}
