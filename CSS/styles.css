@@ -24,6 +24,7 @@ display: flex;
 nav a{
     text-decoration: none;
     color: gray;
+    padding: 10px;
 }
 
 #Aboutus,
@@ -274,6 +275,7 @@ font-size: 12px;
     color: #747474;
     margin: 100px 200px;
     
+    
 }
 
 .sixth_section button{
@@ -290,11 +292,15 @@ font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 120px;
 }
 
 .sixth_section div:hover{
-    box-shadow: #747474;
+        box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.3);
+        
+}
+.sixth_section div{
+        margin: 10px;
 }
 
 footer{
